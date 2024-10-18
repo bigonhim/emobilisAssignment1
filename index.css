@@ -4,6 +4,7 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -25,7 +26,7 @@
             margin-bottom: 30px;
         }
         .styled-button {
-            background-color: #007BFF;
+            background-color: darkred;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -36,4 +37,17 @@
         }
         .styled-button:hover {
             background-color: #0056b3;
+        }
+           .about-section {
+            margin-top: 40px;
+            text-align: left;
+            max-width: 350px;
+        }
+        .about-section h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .about-section p {
+            color: #444;
+            font-size: 16px;
         }
